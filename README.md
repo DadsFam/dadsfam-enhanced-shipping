@@ -1,6 +1,6 @@
 # DadsFam Enhanced Weight & Distance Shipping
 
-**Advanced WooCommerce Shipping Method – Weight + Real-Time Distance Calculation**
+**Advanced WooCommerce Shipping Method – Weight + Real-Time Google Distance Calculation**
 
 **Version:** 2.2.1  
 **Author:** DadsFam  
@@ -18,21 +18,26 @@
 - Maximum delivery distance limit (hides shipping method if too far)
 - Live distance & cost feedback on checkout
 - Fully compatible with WooCommerce Shipping Zones
-- Clean admin settings with helpful descriptions
+- **Multi-currency support planned** – more currencies will be added in future releases
 
 ### Screenshots
-*(Add your screenshots here after uploading them)*
+
+![Shipping Zones Overview](https://github.com/DadsFam/dadsfam-enhanced-shipping/blob/main/WooCommerce%20Integration%20Example%20On%20DadsFam%20Example%201.png)
+
+![Shipping Method Settings](https://github.com/DadsFam/dadsfam-enhanced-shipping/blob/main/WooCommerce%20Integration%20Example%20On%20DadsFam%20Example%202.png)
+
+---
 
 ### Installation
 1. Download the latest release from this repository
 2. Upload the folder to `/wp-content/plugins/dadsfam-enhanced-shipping/`
 3. Activate **DadsFam Enhanced Weight & Distance Shipping** in WordPress
-4. Go to **WooCommerce → Settings → Shipping** and add the method to your zones
+4. Go to **WooCommerce → Settings → Shipping** → Add the method to your desired zone
 
 ### Quick Start
 1. Add the shipping method to a Shipping Zone
-2. Set your **Base Price**, **Weight Threshold**, and **Per Kg Rate**
-3. (Optional) Enter your **Google Routes API Key** and **Store Address** to enable distance calculation
+2. Configure **Weight Threshold**, **Base Price**, and **Rate per kg**
+3. (Optional) Add your **Google Routes API Key** and **Store Address** for distance calculation
 4. Save and test at checkout
 
 ---
@@ -68,12 +73,13 @@ Contact us anytime if you need help: **socials@dadsfam.co.za**
 ### Known Issues
 - None currently.
 
+### Future Plans
+- Support for more currencies (currently focused on ZAR, expanding soon)
+
 ---
 
 ### Changelog
-**Latest (2.2.1)** – Initial public release with weight + Google distance calculation.
-
-See full changelog inside the plugin settings.
+**Latest (2.2.1)** – Initial public release with weight-based pricing + Google Routes API distance calculation.
 
 ### License
 GPLv2 or later
